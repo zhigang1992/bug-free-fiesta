@@ -6,9 +6,9 @@ import './testFails.css';
 import styles from './test.module.css';
 
 // This works
-export const Text = () => <div className={styles.testClass}/>;
+// export const Text = () => <div className={styles.testClass}/>;
 // This does not work
-// export const Text = () => <div className="testClass"/>;
+export const Text = () => <div className="testClass"/>;
 
 export const Emoji = () => (
   <Button onClick={action('clicked')}>
